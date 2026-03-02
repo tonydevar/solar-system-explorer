@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Solar System Explorer</h1>
+            <p>Discover the wonders of our cosmic neighborhood</p>
+        </header>
+
+        <main>
+            <div class="carousel-container">
+                <div class="carousel" id="planetCarousel">
+                    <!-- Planets will be dynamically inserted here -->
+                </div>
+            </div>
+
+            <div class="planet-info-panel" id="planetInfoPanel">
+                <div class="info-header">
+                    <button class="close-btn" id="closeInfo">&times;</button>
+                </div>
+                <div class="info-content">
+                    <div class="planet-image" id="planetImage"></div>
+                    <h2 id="planetName"></h2>
+                    <div class="planet-stats">
+                        <div class="stat">
+                            <span class="stat-label">Mass</span>
+                            <span class="stat-value" id="planetMass"></span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Gravity</span>
+                            <span class="stat-value" id="planetGravity"></span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Length of Day</span>
+                            <span class="stat-value" id="planetDayLength"></span>
+                        </div>
+                    </div>
+                    <div class="planet-description" id="planetDescription"></div>
+                </div>
+            </div>
+
+            <div class="stardust"></div>
+        </main>
+
+        <footer>
+            <p>Explore the Solar System • Premium Dark Theme</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

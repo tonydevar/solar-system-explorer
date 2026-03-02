@@ -1,0 +1,29 @@
+{
+  "name": "solar-system-explorer",
+  "version": "1.0.0",
+  "description": "A premium dark-themed single page application for exploring the Solar System",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solar-system",
+    "space",
+    "explorer",
+    "interactive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Solar System Explorer Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonydevar/solar-system-explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tonydevar/solar-system-explorer/issues"
+  },
+  "homepage": "https://github.com/tonydevar/solar-system-explorer#readme"
+}
